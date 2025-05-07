@@ -6,4 +6,8 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    for i in range(1,11):
+        l.append(f"{i} kg shrinlikning narxi - {i*price} so'm")
+    return l
+print(main(10))

@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    l1=[]
+    for i in list1:
+        l1.append(i.capitalize())
+    return l1
+print(main(['sdadfa','AFAKJSFNIAJ','fiurife']))
